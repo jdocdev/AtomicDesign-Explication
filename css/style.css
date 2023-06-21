@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --black:#000;
+    --white:#FFF;
+    --navy:#4C4C6D;
+    --light-teal:#E8F6EF;
+    --teal:#1B9C85;
+    --yellow:#FFE194;  
+}
+
+.tittle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--navy);
+}
+
+.subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--navy);
+}
+
+.text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--navy);
+}
+
+/* Codigo con fines educativos para pintar los colores en pantalla */
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.circle--navy {
+    background-color: var(--navy);
+}
+
+.circle--light-teal {
+    background-color: var(--light-teal);
+}
+
+.circle--teal {
+    background-color: var(--teal);
+}
+
+.circle--yellow {
+    background-color: var(--yellow);
+}
+/* Codigo con fines educativos para pintar los colores en pantalla */
+
+/* Codigo sin importancia, solo para ordernar el contenido */
+.protones, .atomos, .moleculas, .organismos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.protones>*, .atomos>*, .moleculas>*, .organismos {
+    margin: 1rem;
+}
+/* Codigo sin importancia, solo para ordernar el contenido */
